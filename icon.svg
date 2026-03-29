@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4f46e5"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- Checklist lines -->
+  <rect x="28" y="32" width="72" height="64" rx="8" fill="white" opacity="0.15"/>
+  <!-- Check mark 1 (done) -->
+  <circle cx="44" cy="50" r="8" fill="#22c55e"/>
+  <path d="M40 50 L43 53 L49 46" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="58" y="46" width="34" height="4" rx="2" fill="white" opacity="0.9"/>
+  <!-- Check mark 2 (done) -->
+  <circle cx="44" cy="72" r="8" fill="#22c55e"/>
+  <path d="M40 72 L43 75 L49 68" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="58" y="68" width="28" height="4" rx="2" fill="white" opacity="0.9"/>
+  <!-- Check mark 3 (pending) -->
+  <circle cx="44" cy="94" r="8" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  <rect x="58" y="90" width="32" height="4" rx="2" fill="white" opacity="0.4"/>
+  <!-- Star badge -->
+  <circle cx="98" cy="30" r="16" fill="#f59e0b"/>
+  <path d="M98 20 L100.5 26 L107 26.5 L102 31 L103.5 37.5 L98 34 L92.5 37.5 L94 31 L89 26.5 L95.5 26 Z" fill="white"/>
+</svg>
